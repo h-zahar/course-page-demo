@@ -8,6 +8,11 @@ body {
     background-color: #F3F1FF;
 }
 
+a {
+    text-decoration: none;
+    color: unset;
+}
+
 .grid-style {
     display: grid;
 }
@@ -27,6 +32,50 @@ body {
 
 .flex-vr-square {
     align-items: center;
+}
+
+header {
+    padding-top: 20.17px;
+    padding-bottom: 20.17px;
+    background-color: #562EFF;
+}
+
+.header-container {
+    width: 763.67px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro-company img {
+    width: 35.46px;
+    height: 44.73px;
+}
+
+.company-name {
+    margin-left: 13.66px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.05px;
+    line-height: 32px;
+
+
+    color: #FFFFFF;
+}
+
+nav ul li {
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.0333px;
+    line-height: 21px;
+    padding-left: 31.58px;
+
+    color: #FFFFFF;
+}
+
+li img {
+    width: 44.73px;
+    height: 44.73px;
 }
 
 #container {
@@ -135,6 +184,7 @@ body {
     width: 763.67px;
     background-color: #fff;
     margin-top: 18.43px;
+    margin-bottom: 24.56px;
     padding-left: 28.97px;
 }
 
